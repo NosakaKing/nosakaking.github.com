@@ -1,0 +1,75 @@
+body {
+background-color: #252839;
+color: white;
+font-family: Helvetica, Arial, sans-serif;
+margin: 0;
+}
+header{
+    
+    background-color: #252839;
+    padding: 10px;
+
+}
+header .nombre {
+    display: inline-block;
+    width: 34%;
+    text-align: right;
+
+}
+header .descripcion {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    font-weight: 200;
+    font-size: 20px;
+}
+.contenido {
+    text-align: center;
+    background-color: #232323;
+    padding: 10px;
+}
+.informacion {
+    width: 960px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.informacion h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+dt{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 36px;
+}
+.skill {
+    margin-top: 0px;
+}
+ ul{
+    margin-top: 10px;
+    padding: 18px;
+    margin-bottom: 0px;
+ }
+ li{
+    margin-bottom: 16px;
+ }
+ .habilidades {
+    margin-bottom: 0px;
+    
+ }
+ .imagen {
+    display: inline-block;
+    width: 10%;
+ }
+ .titulos {
+    
+    display: inline-block;
+    width: 69%;
+    
+ }
+ .redes {
+    margin-bottom: 0px;
+ }
