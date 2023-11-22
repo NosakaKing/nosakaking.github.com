@@ -73,7 +73,7 @@ close.forEach(function (cerrar) {
     content.classList.add("animate__animated");
 
     setTimeout(function () {
-      location.href = "/boletines";
+      location.href = "/PizzeriaTomas";
     }, 600);
     return false;
   });
