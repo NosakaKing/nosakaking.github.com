@@ -103,15 +103,40 @@ opacity: 0.8;
 @media (max-width: 758px) {
     .content {
         height: auto;
+        width: 80%;
+        padding: 1em,;
+    }
+    td{
+        display: block;
         width: 100%;
+    }
+    td:nth-of-type(1){
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #642B73;
+    }
+    th{
+        display: none;
     }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 420px) {
     .content {
         height: 100%;
         width: 100%;
-
+        padding: 0.5em,;
+    }
+    td{
+        display: block;
+        width: 100%;
+    }
+    td:nth-of-type(1){
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #642B73;
+    }
+    th{
+        display: none;
     }
     .paragraph {
         line-height: 1.3em;
