@@ -28,7 +28,7 @@ opacity: 0.8;
 }
 .content{
     max-width: 960px;
-    max-height: 5000px;
+    height: 80vh;
     width: 100%;
     height: 50%;
     background-color: white;
@@ -36,6 +36,7 @@ opacity: 0.8;
     border-radius: 4px;
     position: relative;
     padding: 1.8em;
+    
 }
 .actions{
     position: absolute;
@@ -78,7 +79,7 @@ opacity: 0.8;
 .position {
     background-color:#C6426E ;
     color: white;
-    padding: 10px;
+    padding: 0.5em;
     border-radius: 4px;
     margin-right: 0.5em;
 }
@@ -91,3 +92,12 @@ opacity: 0.8;
     float: left;
     margin-right: 1em;
 }
+
+/* Rango 1: Menos de 400 píxeles de ancho */
+@media (max-width: 758px) {
+    .content {
+        height: 90%;
+        width: 80%;
+    }
+}
+
