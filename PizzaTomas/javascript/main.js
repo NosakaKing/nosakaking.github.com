@@ -73,7 +73,7 @@ close.forEach(function (cerrar) {
     content.classList.add("animate__animated");
 
     setTimeout(function () {
-      location.href = "/PizzaTomas";
+      location.href = "/";
     }, 600);
     return false;
   });

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 600px;
+    /* outline: 2px solid; */
+    margin: 40px auto;
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
+   gap: 10px;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-auto-rows: 250px;
+  
+   /* grid-template-areas: "nav nav nav nav nav"
+   "main main main side side"
+   "main main main side side"
+   "main main main  side side"
+   "footer footer footer footer footer" ;
+     */
+}
+
+.item{
+   
+   
+    color: white;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.item1{
+    background-color: saddlebrown;
+    background-image: url(images/mine.png);
+    /* grid-area: nav; */
+
+   
+}
+.item2{
+    background-color: rebeccapurple;
+    background-image: url(images/mine1.png);
+    /* grid-area: main; */
+}
+.item3{
+    background-color: blue;
+    background-image: url(images/mine2.png);
+    /* grid-area: footer;
+     */
+}
+.item4{
+    background-color: orange;
+    background-image: url(images/mine3.png);
+    /* grid-area: side; */
+}
+.item5{
+    background-color: yellow;
+    background-image: url(images/4.png);
+   
+}
+.item6{
+    background-color: yellow;
+    background-image: url(images/5.png);
+   
+}
